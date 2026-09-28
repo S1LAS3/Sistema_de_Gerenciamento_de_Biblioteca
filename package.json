@@ -1,13 +1,18 @@
 {
-  "name": "sistema_biblioteca",
+  "name": "projeto_biblioteca_bootcamp",
   "version": "1.0.0",
+  "description": "Projeto Node.js com TypeScript",
   "type": "module",
   "scripts": {
     "start": "node --experimental-transform-types src/index.ts",
     "dev": "node --experimental-transform-types --watch src/index.ts"
   },
-  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "typescript": "^7.0.2",
+    "undici-types": "^8.9.0"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/S1LAS3/Sistema_de_Gerenciamento_de_Biblioteca.git"
@@ -18,9 +23,5 @@
   "bugs": {
     "url": "https://github.com/S1LAS3/Sistema_de_Gerenciamento_de_Biblioteca/issues"
   },
-  "homepage": "https://github.com/S1LAS3/Sistema_de_Gerenciamento_de_Biblioteca#readme",
-  "devDependencies": {
-    "@types/node": "^26.6.2",
-    "typescript": "^7.0.2"
-  }
+  "homepage": "https://github.com/S1LAS3/Sistema_de_Gerenciamento_de_Biblioteca#readme"
 }
